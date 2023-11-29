@@ -14,6 +14,9 @@ Number of Memory Blocks: User-input, allowing flexibility in the simulated memor
 
 - GUI Visualization: The graphical interface provides a real-time representation of the cache memory, allowing users to observe cache hits, misses, and memory access traces.
 
+![App](https://github.com/MatsTill/TFTP-Client/blob/main/TFTP%20Client%20MP/Set-Up/TFTP%20Servers/2.4.1_50.png](https://github.com/MatsTill/Cache-Simulation-Project/blob/main/app.png)
+
+
 ## GUI Output
 1. Cache Memory Snapshot: Users can choose between a step-by-step animated tracing option or a final memory snapshot. The system generates a visual representation of the cache memory, aiding in understanding cache dynamics.
 2. Text Log: A detailed text log is provided, capturing the cache memory trace.
