@@ -24,9 +24,9 @@ Number of Memory Blocks: User-input, allowing flexibility in the simulated memor
 
 ## Detailed Analysis:
 
-Sequential Sequence
+### Sequential Sequence
 
-Random Sequence
+### Random Sequence
 
-Mid-Repeat Blocks Sequence
+### Mid-Repeat Blocks Sequence
 
