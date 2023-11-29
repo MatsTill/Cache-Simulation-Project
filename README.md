@@ -23,7 +23,7 @@ Number of Memory Blocks: User-input, allowing flexibility in the simulated memor
 3. Performance Metrics: The system outputs key performance metrics, including memory access count, cache hit count, cache miss count, cache hit rate, cache miss rate, average memory access time, and total memory access time.
 
 ## Video Walkthrough:
-[GOOGLE DRIVE LINK(https://drive.google.com/file/d/12dVWclUbrTgqcWuqQj91zjiugZn7YoHA/view?usp=sharing)]
+![Video](https://drive.google.com/file/d/12dVWclUbrTgqcWuqQj91zjiugZn7YoHA/view?usp=sharing)
 
 ## Detailed Analysis:
 
