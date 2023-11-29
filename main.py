@@ -194,13 +194,21 @@ class CacheSimulationApp:
 
     def generate_test_sequence(self, memory_blocks):
         if self.choice_var.get() == 1:
-            return [i % (2 * memory_blocks) for i in range(4 * memory_blocks)]
+           test_sequence = [i % (2 * memory_blocks) for i in range(4 * memory_blocks)]
+           test_sequence = test_sequence + test_sequence
+           return test_sequence
         elif self.choice_var.get() == 2:
             temp_random = random.sample(range(4*memory_blocks), 4 *memory_blocks) 
             return random.sample(random.choices(temp_random,weights= None, cum_weights= None,k = memory_blocks * 4), 4 * memory_blocks)
         elif self.choice_var.get() == 3:
-            return [i % (2 * memory_blocks) for i in range(2 * memory_blocks)] * 2 + [i for i in range(2 * memory_blocks)] * 2
+            temp_dump = [i % (2 * memory_blocks) for i in range(2 * memory_blocks)]
+            temp_dump_2 = [i % (memory_blocks - 1) for i in range(memory_blocks - 1)]
 
+            test_sequence = temp_dump_2 + temp_dump
+            test_sequence = test_sequence + test_sequence
+            test_sequence = test_sequence + test_sequence
+            return test_sequence
+            
 if __name__ == "__main__":
     root = tk.Tk()
     app = CacheSimulationApp(root)
