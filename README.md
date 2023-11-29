@@ -8,11 +8,11 @@ Read Policy: Load-Through
 Number of Memory Blocks: User-input, allowing flexibility in the size of the simulated memory.
 
 ## Features Implemented
-Memory Access Simulation: Users can choose from various test cases, including Sequential Sequences, Random Sequences, and Mid-Repeat Blocks Sequences.
+- Memory Access Simulation: Users can choose from various test cases, including Sequential Sequences, Random Sequences, and Mid-Repeat Blocks Sequences.
 
-FIFO Replacement Policy: The system employs the FIFO replacement policy to manage cache contents when a cache miss occurs.
+- FIFO Replacement Policy: The system employs the FIFO replacement policy to manage cache contents when a cache miss occurs.
 
-GUI Visualization: The graphical interface provides a real-time representation of the cache memory, allowing users to observe cache hits, misses, and memory access traces.
+- GUI Visualization: The graphical interface provides a real-time representation of the cache memory, allowing users to observe cache hits, misses, and memory access traces.
 
 ## GUI Output
 1. Cache Memory Snapshot: Users can choose between a step-by-step animated tracing option or a final memory snapshot. The system generates a visual representation of the cache memory, aiding in the understanding of cache dynamics.
@@ -22,7 +22,9 @@ GUI Visualization: The graphical interface provides a real-time representation o
 ## Detailed Analysis:
 
 Sequential Sequence
+
 Random Sequence
+
 Mid-Repeat Blocks Sequence
 
 ## Video Walkthrough:
