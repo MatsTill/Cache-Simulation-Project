@@ -34,7 +34,7 @@ Number of Memory Blocks: User-input, allowing flexibility in the simulated memor
 ### Mid-Repeat Blocks Sequence
 
 ## Contributors
-Leon Pablo
-Jan Relucio
-Sophia Perez
-Earl Guevara
+- Leon Pablo
+- Jan Relucio
+- Sophia Perez
+- Earl Guevara
